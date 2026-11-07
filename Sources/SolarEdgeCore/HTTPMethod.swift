@@ -1,0 +1,15 @@
+//
+//  HTTPMethod.swift
+//  SolarEdgeKit
+//
+//  Created by Andre Albach on 07.11.26.
+//
+
+import Foundation
+
+package enum HTTPMethod: String, Sendable {
+    case get = "GET"
+    case post = "POST"
+    case put = "PUT"
+    case delete = "DELETE"
+}

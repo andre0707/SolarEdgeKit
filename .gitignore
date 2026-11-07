@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# Swift Package Manager
+/.build
+/Packages
+# A library pins no dependency versions for its users.
+Package.resolved
+.netrc
+
+# Xcode: the workspace and schemes it generates for the package, per-user
+# state and build output. Xcode recreates .swiftpm when it opens the package.
+/.swiftpm
+xcuserdata/
+DerivedData/
+
+# Other editors
+.vscode/
+.idea/
+
+# Raw responses saved by the live tests; they may contain customer data.
+LiveCaptures/
+
+# Secrets: never commit API keys or tokens.
+.env
+.env.*
+*.secret
+*.secrets
+Secrets/
